@@ -1,0 +1,55 @@
+#navbar-container {
+  display: grid;
+  grid-template-columns: 33% 34% 33%;
+  place-items: center;
+}
+#create-post {
+  display: grid;
+  grid-template-columns: 33% 34% 33%;
+}
+#post-title {
+  margin-left: 1rem;
+}
+#image-link {
+  margin-left: 2rem;
+}
+#create-button {
+  margin-left: 3rem;
+  margin-right: 1rem;
+  text-align: center;
+}
+.all-post-container {
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+}
+.profile-photo {
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+}
+.profile-photo-name {
+  display: grid;
+  grid-template-columns: 5rem 70%;
+  margin-bottom: 1rem;
+}
+.image-name {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+.post-image {
+  height: 20rem;
+  width: 100%;
+  margin-top: 1rem;
+  object-fit: cover;
+}
+.like {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.imagegap {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.gap {
+  margin-bottom: 1rem;
+}
